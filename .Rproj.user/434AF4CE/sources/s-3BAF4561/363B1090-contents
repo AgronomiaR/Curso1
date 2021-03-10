@@ -1,0 +1,12 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    fontsettings:
+      # theme: night
+      family: sans
+      size: 2
+    toc:
+      before: |
+        <li><a href="./">Conheça o R: Introdução, dicas e curiosidades</a></li>
+        <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1200px-R_logo.svg.png" width="120" height="80" ></center>
+    download: ["pdf", "epub"]

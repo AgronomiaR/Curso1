@@ -1,0 +1,32 @@
+h1:o-que-é-o-r O que é o R
+h1:instalação-do-software-r Instalação do software R
+h1:primeiros-passos Primeiros passos
+h1:noções-básicas Noções básicas
+h2:objetos Objetos
+h3:vetores Vetores
+h3:fatores Fatores
+h3:matrizes Matrizes
+h3:data.frame data.frame
+h3:lista Lista
+h2:manipulação-de-objeto Manipulação de objeto
+h1:instalando-packages Instalando packages
+h1:tabulação-de-dados Tabulação de dados
+h1:importação-de-dados Importação de dados
+h2:excel Excel
+h3:utilizando-a-package-readxl Utilizando a package readxl
+h3:especificar-o-diretório-onde-fica-o-arquivo-em-excel. Especificar o diretório onde fica o arquivo em excel.
+h3:opção-2-para-especificar-diretório Opção 2 para especificar diretório
+h3:conferir-se-o-arquivo-está-no-diretório-especificado Conferir se o arquivo está no diretório especificado
+h3:ativando-a-package-e-importando-o-arquivo Ativando a package e importando o arquivo
+h3:ajuda Ajuda
+h2:csv csv
+h3:especificar-o-diretório-onde-fica-o-arquivo-de-dados. Especificar o diretório onde fica o arquivo de dados.
+h3:opção-2-para-especificar-diretório-1 Opção 2 para especificar diretório
+h3:conferir-se-o-arquivo-está-no-diretório-especificado-1 Conferir se o arquivo está no diretório especificado
+h3:importando-o-arquivo Importando o arquivo
+h3:arquivo-separado-por-ponto-e-vírgula-e-decimal-separado-por-vírgula Arquivo separado por ponto e vírgula e decimal separado por vírgula
+h3:arquivo-separado-por-vírgula-e-decimal-com-ponto Arquivo separado por vírgula e decimal com ponto
+h1:atalhos Atalhos
+h1:fundamentos-gráficos Fundamentos gráficos
+h1:lista-de-pacotes-interessantes Lista de pacotes interessantes
+
