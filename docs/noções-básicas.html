@@ -24,7 +24,7 @@
 <meta name="author" content="Gabriel Danilo Shimizu" />
 
 
-<meta name="date" content="2021-03-09" />
+<meta name="date" content="2021-03-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -270,19 +270,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="noções-básicas.html#cb28-1" aria-hidden="true" tabindex="-1"></a>car<span class="sc">::</span><span class="fu">Boxplot</span>(resposta<span class="sc">~</span>Trat)</span></code></pre></div>
 <pre><code>## Warning in Boxplot.default(mf[[response]], x, id = list(method = id.method, :
 ## NAs introduzidos por coerção</code></pre>
-<p><img src="Curso1_files/figure-html/unnamed-chunk-10-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="Curso1_files/figure-html/unnamed-chunk-11-1.png" width="672" style="display: block; margin: auto;" /></p>
 <pre><code>## [1] &quot;21&quot;</code></pre>
 <div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="noções-básicas.html#cb31-1" aria-hidden="true" tabindex="-1"></a>car<span class="sc">::</span><span class="fu">Boxplot</span>(resposta[<span class="sc">-</span><span class="dv">21</span>]<span class="sc">~</span>Trat[<span class="sc">-</span><span class="dv">21</span>])</span></code></pre></div>
 <pre><code>## Warning in Boxplot.default(mf[[response]], x, id = list(method = id.method, :
 ## NAs introduzidos por coerção</code></pre>
-<p><img src="Curso1_files/figure-html/unnamed-chunk-11-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="Curso1_files/figure-html/unnamed-chunk-12-1.png" width="672" style="display: block; margin: auto;" /></p>
 <div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="noções-básicas.html#cb33-1" aria-hidden="true" tabindex="-1"></a>dados<span class="ot">=</span><span class="fu">data.frame</span>(Trat,resposta)</span>
 <span id="cb33-2"><a href="noções-básicas.html#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">with</span>(dados[<span class="sc">-</span><span class="dv">21</span>,],<span class="fu">boxplot</span>(resposta<span class="sc">~</span>Trat))</span></code></pre></div>
-<p><img src="Curso1_files/figure-html/unnamed-chunk-12-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="Curso1_files/figure-html/unnamed-chunk-13-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>Removendo tratamento</p>
 <div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="noções-básicas.html#cb34-1" aria-hidden="true" tabindex="-1"></a>dados<span class="ot">=</span><span class="fu">data.frame</span>(Trat,resposta)</span>
 <span id="cb34-2"><a href="noções-básicas.html#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="fu">with</span>(dados[<span class="sc">!</span>Trat<span class="sc">==</span><span class="st">&quot;T 5&quot;</span>,],<span class="fu">boxplot</span>(resposta<span class="sc">~</span>Trat))</span></code></pre></div>
-<p><img src="Curso1_files/figure-html/unnamed-chunk-13-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="Curso1_files/figure-html/unnamed-chunk-14-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>Criar um sequência repetida de observações</p>
 <p>O primeiro argumento indica o valor que será repetido e o segundo argumento será o número de vezes que será repetido</p>
 <div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="noções-básicas.html#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rep</span>(<span class="dv">0</span>,<span class="dv">10</span>)        <span class="co"># criando uma sequência de 10 observações 0</span></span></code></pre></div>
