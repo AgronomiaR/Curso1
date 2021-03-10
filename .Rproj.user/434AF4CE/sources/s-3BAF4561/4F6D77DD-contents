@@ -1,9 +1,0 @@
-bookdown::gitbook:
-  css: style.css
-  config:
-    fontsettings:
-      theme: sepia
-    toc:
-      before: |
-        <li><a href="./">Conheça o R: Introdução, dicas e curiosidades</a></li>
-    download: ["pdf", "epub"]

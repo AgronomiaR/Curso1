@@ -1,0 +1,2 @@
+dados=read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTopd5h7pZmDOd4ntgxtAK94NP_fKpSh-4TStV10uXuusVWqKKlyc1WM1fcAkz2wCE05Brabyc8SL6r/pub?gid=1226979678&single=true&output=csv")
+dados=dados[,-4]
