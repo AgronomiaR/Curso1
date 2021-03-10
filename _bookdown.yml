@@ -2,4 +2,4 @@ book_filename: "Curso1"
 delete_merged_file: true
 language:
   ui:
-    chapter_name: "Capítulo "
+    chapter_name: " "
