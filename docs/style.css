@@ -300,3 +300,8 @@ iframe {
 .iframe-container > iframe {
   border: none;
 }
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
